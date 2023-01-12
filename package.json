@@ -1,0 +1,26 @@
+{
+  "name": "javeria_atm",
+  "version": "1.0.0",
+  "description": "CLI TypeScript ATM",
+  "main": "index.js",
+  
+  "type":"module",
+  "scripts": {
+    "start": "node ."
+  },
+  "keywords": [],
+  "author": "javeria.hassan77@gmail.com",
+
+  "license": "ISC",
+  "bin": "./index.js",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chalk-animation": "^2.0.3",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/chalk": "^2.2.0",
+    "@types/chalk-animation": "^1.6.1",
+    "@types/inquirer": "^9.0.3"
+  }
+}
